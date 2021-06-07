@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+}
+// 页面背景设置
+.code-container {
+  height: 100%;
+  background-color: #fff;
+  // 验证码图片
+  .codeImg {
+    margin: 28px auto;
+    height: 67px;
+    width: 86px;
+    background-image: url("../../../assets/提示.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  // 验证码文字提示
+  .codeTip {
+    margin: 16px 0;
+    padding: 0 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #2e2d2d;
+  }
+}
+
+// 验证码输入框
+.codeInput-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.codeInput-container .codeInput {
+  line-height: 44px;
+  width: 175px;
+  height: 25px;
+  font-size: 16px;
+}
+// 设置获取验证码按钮
+.codeInput-container .reCodeBtn {
+  transform: translateY(8px);
+  padding: 0 10px;
+  width: 35%;
+  border-radius: 25px;
+  color: #e2231a;
+  background-color: rgba(226, 35, 30, 0.2);
+}
+// 下一步按钮设置
+.code-nextBtn-container {
+  display: flex;
+  justify-content: center;
+  .code-nextBtn {
+    margin-top: 30px;
+    width: 85%;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+}
+// 联系客服文字
+.customer-service {
+  display: block;
+  margin-left: 30px;
+  padding-top: 30px;
+  font-size: 13px;
+  color: #999;
+  .contact{
+      color: #3B7ADB;
+  }
+}

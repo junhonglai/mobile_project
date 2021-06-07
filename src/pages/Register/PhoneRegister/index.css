@@ -1,0 +1,11 @@
+.policy-text{
+    color: #000;
+}
+.policy-strong-text{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.policy-item{
+    display: block;
+    text-align: left;
+}

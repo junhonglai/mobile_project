@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+}
+.code-container {
+  height: 100%;
+  background-color: #fff;
+}
+.code-container .codeImg {
+  margin: 28px auto;
+  height: 67px;
+  width: 86px;
+  background-image: url("../../../assets/提示.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.code-container .codeTip {
+  margin: 16px 0;
+  padding: 0 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #2e2d2d;
+}
+.codeInput-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.codeInput-container .codeInput {
+  line-height: 44px;
+  width: 175px;
+  height: 25px;
+  font-size: 16px;
+}
+.codeInput-container .reCodeBtn {
+  transform: translateY(8px);
+  padding: 0 10px;
+  width: 35%;
+  border-radius: 25px;
+  color: #e2231a;
+  background-color: rgba(226, 35, 30, 0.2);
+}
+.code-nextBtn-container {
+  display: flex;
+  justify-content: center;
+}
+.code-nextBtn-container .code-nextBtn {
+  margin-top: 30px;
+  width: 85%;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.customer-service {
+  display: block;
+  margin-left: 30px;
+  padding-top: 30px;
+  font-size: 13px;
+  color: #999;
+}
+.customer-service .contact {
+  color: #3B7ADB;
+}

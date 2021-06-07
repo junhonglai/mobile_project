@@ -6,18 +6,18 @@ import {
 } from "react-router-dom";
 import { routes } from "./config/route";
 import "./App.css";
-import { Button } from "antd-mobile";
+// import { Button } from "antd-mobile";
 function App() {
   return (
     <Router>
-      <div className="box">
+      {/* <div className="box">
         <Button type="primary" className="btn">
           登录
         </Button>
-      </div>
+      </div> */}
       <Switch>
-        {routes.map((route) => {
-          return <Route {...route}></Route>;
+        {routes.map((route,index) => {
+          return <Route {...route} key={index} exact></Route>;
         })}
         <Redirect to="/phoneLogin"></Redirect>
       </Switch>
